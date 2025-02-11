@@ -1,6 +1,7 @@
 services:
   analysis-env:
-    image: rocker/rstudio:4.4.2
+    build: . # Build from my local Dockerfile
+    image: tracywxr/hwcontainer # My custom image name
     ports:
       - "8787:8787"
     volumes:
