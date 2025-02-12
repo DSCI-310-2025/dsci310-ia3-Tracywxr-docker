@@ -1,7 +1,7 @@
 services:
   analysis-env:
     build: . # Build from my local Dockerfile
-    image: tracywxr/hwcontainer # My custom image name
+    image: tracywxr/dockerfile-practice # My custom image name
     ports:
       - "8787:8787"
     volumes:
